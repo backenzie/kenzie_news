@@ -5,7 +5,7 @@ body {
 header {
     display: flex;
     background-color: blue;
-    width: 360px;
+    width: 100%;
     height: 70px;
     justify-content: center;
     margin:0px 0px 40px 0px;
@@ -21,8 +21,8 @@ header > img {
 .card_noticias_principal{
     display: flex;
     background-image: url("../imgIndex/img.png");
-    background-repeat: no-repeat;
-    width: 360px;
+    background-size: 100%;
+    width: 425px;
     height: 350px;
     justify-content: end;
     flex-direction: column;
@@ -59,10 +59,10 @@ header > img {
 .cardLi {
     display: flex;
     background-color: white;
-    width: 330px;
+    width: 360px;
     height: 150px;
     border-radius: 5px;
-    margin: 0px 10px 10px 10px;
+    margin: 0px 10px 10px 30px;
     padding: 15px 0px 0px 5px;
 }
 
@@ -110,7 +110,7 @@ header > img {
 }
 footer {
     display: flex;
-    width: 360px;
+    width: 100%;
     height: 60px;
     background-color: #EEEEEE;
     color: #1B1C1E;
