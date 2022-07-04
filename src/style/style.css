@@ -1,0 +1,132 @@
+body {
+    background: #E0E0E0;
+}
+
+header {
+    display: flex;
+    background-color: blue;
+    width: 360px;
+    height: 70px;
+    justify-content: center;
+    margin:0px 0px 40px 0px;
+    
+}
+
+header > img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.card_noticias_principal{
+    display: flex;
+    background-image: url("../imgIndex/img.png");
+    background-repeat: no-repeat;
+    width: 360px;
+    height: 350px;
+    justify-content: end;
+    flex-direction: column;
+    margin:0px 0px 30px 0px;
+}
+
+.card_noticias_principal > span {
+    display: flex;
+    background-color: white;
+    color: blue;
+    width: 60px;
+    height: 16px;
+    margin: 5px 10px;
+    padding: 5px 0px 0px 0px;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 10px;
+    
+}
+
+.card_noticias_principal > h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 28px;
+    margin: 5px 10px;
+}
+
+.card_noticias_principal > p {
+    font-size: 12px;
+    margin: 5px 10px;
+    color: white;
+}
+
+.cardLi {
+    display: flex;
+    background-color: white;
+    width: 330px;
+    height: 150px;
+    border-radius: 5px;
+    margin: 0px 10px 10px 10px;
+    padding: 15px 0px 0px 5px;
+}
+
+.cardImg {
+    
+    display: none;
+
+}
+
+.cardSpan {
+    display: flex;
+    background-color: #D7E4FB;
+    color: #5163D3;
+    width: 80px;
+    height: 16px;
+    margin: 5px 10px;
+    padding: 5px 0px 0px 0px;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 10px;   
+}
+
+.h1 {
+
+    font-size: 16px;
+    font-weight: 500;
+    color: #5163D3;
+    margin: 5px 10px;
+
+}
+
+.h3 {
+
+    font-size: 12px;
+    color: #1B1C1E;
+    font-weight: 400;
+    margin: 5px 10px;
+
+}
+.p{
+    font-size: 10px;
+    font-weight: 300;
+    color: #1B1C1E;
+    margin: 5px 10px;
+}
+footer {
+    display: flex;
+    width: 360px;
+    height: 60px;
+    background-color: #EEEEEE;
+    color: #1B1C1E;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+@media(min-width: 750px){
+
+.card_noticias_principal > p {
+   
+}
+
+
+
+}
+
